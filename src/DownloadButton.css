@@ -1,0 +1,34 @@
+.download h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button-api-frame {
+  width: 100%;
+  display: flex;
+}
+
+.download {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+@media screen and (min-width: 651px) {
+  #myframe{
+    height:100px!important;
+}
+}
+
+@media (min-width: 400px) and (max-width: 650px) {
+  #myframe{
+    height:200px!important;
+  }
+}
+  
+  @media (min-width: 200px) and (max-width: 399px) {
+    #myframe{height:300px!important;
+  }
+}
